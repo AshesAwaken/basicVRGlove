@@ -1,6 +1,6 @@
 # basicVRGlove
 
-This project uses 5 flex sensors for basic finger tracking (no splay tracking as of right now)
+This repo contains arduino firmware and (in the future) OpenVR driver for basic VR gloves using flex sensors
 
 ## Parts needed
 - Arduino Nano ESP32 (other boards probably work, but this is what I am using)
@@ -10,3 +10,4 @@ This project uses 5 flex sensors for basic finger tracking (no splay tracking as
 ## Current goals
 - finger tracking VR (via valve index controller emulation)
 - support for aditional buttons and joystick
+
