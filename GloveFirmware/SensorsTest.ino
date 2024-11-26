@@ -13,7 +13,11 @@ int yVal;
 int buttonState;
 
 void initializeTestPins() {
-  Serial.begin(9600);
+  pinMode(THUMB_PIN, INPUT);
+  pinMode(INDEX_PIN, INPUT);
+  pinMode(MIDDLE_PIN, INPUT);
+  pinMode(RING_PIN, INPUT);
+  pinMode(PINKIE_PIN, INPUT);
   pinMode(X_PIN, INPUT);
   pinMode(Y_PIN, INPUT);
   pinMode(B_BUTTON, INPUT_PULLUP);
